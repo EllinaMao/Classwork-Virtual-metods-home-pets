@@ -18,7 +18,7 @@ protected:
     string name;
 
 public:
-
+    Animal() = default;
     explicit Animal(const string& name) : name(name) {}
 
     virtual void Sound() const { cout << " Unknown" << endl; }

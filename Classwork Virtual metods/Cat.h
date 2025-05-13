@@ -3,6 +3,7 @@
 
 class Cat : public Animal {
 public:
+    Cat() = default;
     explicit Cat(const string& name) : Animal(name) {}
 
     void Sound() const override {
@@ -14,4 +15,5 @@ public:
         cout << string(15, '-') << endl;
 
     }
+
 };
