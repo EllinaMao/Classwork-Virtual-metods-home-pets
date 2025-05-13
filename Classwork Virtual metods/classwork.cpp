@@ -17,13 +17,13 @@ int main()
     arr_anim[1] = new Cat("Natasha");
     arr_anim[2] = new Parrot("Kostya");
     arr_anim[3] = new Hamster("Dima");
-    arr_anim[4] = new Hamster();
+    arr_anim[4] = new Animal();
     
         for (size_t i = 0; i < size; i++)
         {
             arr_anim[i]->Show();
-            arr_anim[i]->Type();
             arr_anim[i]->Sound();
+            arr_anim[i]->Type();
         }
     ///  Sound(); Show();  Type();  virtual,  перевизначеними в дочірніх класах
 
