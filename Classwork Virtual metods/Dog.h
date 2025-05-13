@@ -14,7 +14,6 @@ public:
 
     void Type() const override {
         cout << "Type: Dog" << endl;
-        cout << string(15, '-') << endl;
 
     }
 };
