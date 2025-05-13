@@ -12,7 +12,7 @@ public:
 
     void Type() const override {
         cout << "Type: Cat" << endl;
-        cout << string(15, '-') << endl;
+
 
     }
 

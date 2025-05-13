@@ -13,7 +13,6 @@ public:
 
     void Type() const override {
         cout << "Type: Parrot" << endl;
-        cout << string(15, '-') << endl;
 
     }
 

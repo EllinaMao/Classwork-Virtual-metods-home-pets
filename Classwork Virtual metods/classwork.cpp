@@ -24,6 +24,7 @@ int main()
             arr_anim[i]->Show();
             arr_anim[i]->Sound();
             arr_anim[i]->Type();
+            cout << string(15, '-') << endl;
         }
     ///  Sound(); Show();  Type();  virtual,  перевизначеними в дочірніх класах
 
